@@ -56,12 +56,12 @@ Each product is tagged with one or more of the prefixes above. For example, a pr
 * console.log(findCombinationsFromText('Make#$(&^_Lift-Rite-Group_Tool!@%s-Hardware-Category_Washer-!@#%'));
 
 
-Those lines should return
-[
-['Group_Tools-Hardware', 'Category_Washer', 'Make_Lift-Rite'],
-['Group_Tools-Hardware', 'Category_Washer'],
-['Group_Tools-Hardware']
-]
+* Those lines should return
+* [
+*   ['Group_Tools-Hardware', 'Category_Washer', 'Make_Lift-Rite'],
+*   ['Group_Tools-Hardware', 'Category_Washer'],
+*   ['Group_Tools-Hardware']
+* ]
 
 And below lines should return empty array
 
